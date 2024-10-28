@@ -3,6 +3,7 @@ echo "Updating Vito..."
 cd /home/vito/vito
 
 echo "Pulling changes..."
+
 git fetch --all
 
 echo "Checking out the latest tag..."
