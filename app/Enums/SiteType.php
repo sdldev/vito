@@ -15,5 +15,7 @@ final class SiteType
     const PHPMYADMIN = 'phpmyadmin';
 
     const ASTRO = 'astro';
+    const PROXY = 'proxy';
+
 
 }

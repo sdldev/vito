@@ -337,6 +337,7 @@ return [
         \App\Enums\SiteType::WORDPRESS,
         \App\Enums\SiteType::PHPMYADMIN,
         \App\Enums\SiteType::ASTRO,
+        \App\Enums\SiteType::PROXY,
 
     ],
     'site_types_class' => [
@@ -345,7 +346,7 @@ return [
         \App\Enums\SiteType::LARAVEL => \App\SiteTypes\Laravel::class,
         \App\Enums\SiteType::WORDPRESS => \App\SiteTypes\Wordpress::class,
         \App\Enums\SiteType::PHPMYADMIN => \App\SiteTypes\PHPMyAdmin::class,
-        \App\Enums\SiteType::ASTRO => \App\SiteTypes\Astro::class,
+        \App\Enums\SiteType::PROXY => \App\SiteTypes\Proxy::class,
 
     ],
 
